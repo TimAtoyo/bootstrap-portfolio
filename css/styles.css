@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #007bff; /* Navigation bar, call to action buttons */
+    --secondary-color: #6c757d; /* Headings, body text */
+    --tertiary-color: #ffffff; /* Backgrounds, buttons */
+    --accent-color: #ff3860; /* Highlights, links */
+    --footer-color: #343a40; /* Footer background */
+  
+    /* Additional colors */
+    --success-color: #28a745; /* Success messages */
+    --warning-color: #ffc107; /* Warning messages */
+    --error-color: #dc3545; /* Error messages */
+  }
+
+  
+/* Reset browser defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset heading styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }  
+  
