@@ -1,36 +1,48 @@
-# bootstrap-portfolio
- Recreated my first porfolo using bootrap to minimise the anmount of breakpoints 
- the sections on this new portfolio are 
+# Bootstrap Portfolio
 
- 1 Navigation bar
+## Project Overview
 
-A navigation menu at the top usiing bootstraps nav compontent.
+This portfolio website is built with Bootstrap to ensure responsiveness without heavy reliance on media queries.
 
-It imcludes Links navigate to the appropriate sections
- ie About, My Work, My Skills, and Resume - needs to be linked 
+## Sections
 
-2 A hero section
+### Navigation Bar
 
-A jumbotron featuring my picture, my name, about me.
-I have combined an about me and cotact me in the jumbotron
+- Top-aligned navigation menu using Bootstrap's nav component.
+- Links for easy navigation to key sections: About, My Work, My Skills, Resume.
 
-3 A work section
+### Hero Section
 
-A section displaying my work in grid.
+- Jumbotron featuring image, name, and brief introduction.
+- "About Me" and "Contact Me" sections integrated for a streamlined presentation.
 
-I have used place holder images for the project cards,  I also reolaced the default background color, border radius, and border on the bootstrap cards.
-there is a cool transform on the cards on a hover event.
+### Work Section
 
+- Grid layout for effective project showcase.
+- Placeholder images for project cards.
+- Modified Bootstrap card styles for a consistent aesthetic.
+- Engaging hover effect on project cards.
 
-A skills section
+### Skills Section
 
-I have a list of skills I expect tp have achieved by the end of the course 
+- List of skills anticipated to be mastered by the end of the course.
 
+## Requirements
 
-All hyperlinks should have a hover effect.
+- Hyperlinks with hover effects for improved user interaction.
+- Buttons exhibit box shadow on hover for visual appeal.
+- Sparse use of media queries for consistent and responsive layout.
 
-All buttons should display a box shadow upon hover.
+## Deployment
 
-Your Bootstrap solution should minimize use of media queries.
+The portfolio is deployed to GitHub Pages at:
 
-Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+[https://timatoyo.github.io/bootstrap-portfolio/](https://timatoyo.github.io/bootstrap-portfolio/)
+
+## Repository
+
+Find the source code on GitHub:
+
+[https://github.com/TimAtoyo/bootstrap-portfolio](https://github.com/TimAtoyo/bootstrap-portfolio)
+
+For any questions, feel free to reach out.
