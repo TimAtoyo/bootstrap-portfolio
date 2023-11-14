@@ -12,7 +12,7 @@
 
 <body>
     <!-- A Navigation bar -->
-    <nav class="px-5 navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="px-5 navbar navbar-expand-lg bg-color py-2 shadow">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img class="me-4" width="50" src="/images/profile.PNG" alt="">TM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,10 +23,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                        <a class="nav-link active" aria-current="page" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Me</a>
@@ -41,24 +41,28 @@
 
     <!-- A hero section -->
     <!-- Jumbotron -->
-    <div class="container-fluid my-5">
+    <div class="container-fluid mb-5 jumbotron">
         <div class="row">
+           
             <div class="col-12">
-                <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
-                    <div class="container py-5 ">
+                <div class="py-3 mb-4" id="about">
+                    <div class="container ">
                         <div class="row d-flex align-items-center ">
-                            <div class="col-md-5 order-sm-1 order-md-2 mb-5
+                            <div class="col-md-6 order-sm-1 order-md-2 mb-5
                             ">
-                                <img class="img-fluid" src="/images/profile-pic.png" alt="">
+                                <img class="img-fluid" src="/images/profile-2.png" alt="">
                             </div>
-                            <div class="col-md-7 order-sm-2 order-md-1">
-                                <h1 class="display-5 fw-bold hero-text"><span class="hero-text-span">Creative Developer </span>
-                                    <br>Building Beautiful Websites and Web Applications
-                                </h1>
-                                <p class="col-md-12 fs-4">Rock Nation brings you the most headbanging shows on the planet. Click
-                                    below to find tickets for
-                                    your favorite bands</p>
-                                <button class="btn btn-primary btn-lg" type="button">Buy Tickets</button>
+                            <div class="col-md-6 order-sm-2 order-md-1">
+                                <h4 class="mb-4">About</h4>
+                                <h1 class="display-5 fw-bold hero-text hero-text-span mb-2">Hi I'm Tim Atoyo,
+                                
+                            </h1>
+                                <h2 class="display-4 fw-bold hero-text">
+                                    I Build Beautiful Websites and Web Applications
+                                </h2>
+                                <p class="col-md-12 hero-text-bio"> I love solving creative challenges
+                                    and helping businesses achieve their goals.</p>
+                                <button class="btn btn-outline-primary btn-lg" type="button">Contact Me</button>
                             </div>
                         </div>
                     </div>
@@ -71,11 +75,20 @@
 
     <!-- A work section -->
 
-    <div class="container my-5">
+    <div class="container my-5 work-container" id="work">
         <div class="row justify-content-center">
+            <h4 class="work">My Work</h4>
+            <div class="text-success mb-5">
+                <hr>
+              </div>
+              
             <div class="col-12 col-md-6 col-lg-4 mb-4 ">
-                <div class="card">
-                    <img src="./images/kelly-sikkema-l-lgKl4HNHM-unsplash.jpg" class="card-img-top" alt="placeholder">
+                <div class="card border-0 rounded-0">
+                    <div class="img-container">
+                        <img src="./images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg" class="card-img-top rounded-0"
+                            alt="placeholder">
+                    </div>
+
                     <div class="card-body">
                         <h5 class="card-title">Surf Project</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -85,10 +98,14 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4 ">
-                <div class="card">
-                    <img src="./images/kelly-sikkema-N3o-leQyFsI-unsplash.jpg" class="card-img-top" alt="placeholder">
+                <div class="card border-0 rounded-0">
+                    <div class="img-container">
+                        <img src="./images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg" class="card-img-top rounded-0"
+                            alt="placeholder">
+                    </div>
+
                     <div class="card-body">
-                        <h5 class="card-title">Surf Project</h5>
+                        <h5 class="card-title">Calculator</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                         <a href="#" class="card-link">Check it out</a>
@@ -96,10 +113,14 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4 ">
-                <div class="card">
-                    <img src="./images/kelly-sikkema-weGUlLKCd-c-unsplash.jpg" class="card-img-top" alt="placeholder">
+                <div class="card border-0 rounded-0">
+                    <div class="img-container">
+                        <img src="./images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg" class="card-img-top rounded-0"
+                            alt="placeholder">
+                    </div>
+
                     <div class="card-body">
-                        <h5 class="card-title">Surf Project</h5>
+                        <h5 class="card-title">To do List</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                         <a href="#" class="card-link">Check it out</a>
@@ -107,10 +128,15 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4 ">
-                <div class="card">
-                    <img src="./images/kelly-sikkema-N3o-leQyFsI-unsplash.jpg" class="card-img-top" alt="placeholder">
+                <div class="card border-0 rounded-0">
+                    <div class="img-container">
+                        <img src="./images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg" class="card-img-top rounded-0"
+                            alt="placeholder">
+                    </div>
+
                     <div class="card-body">
-                        <h5 class="card-title">Surf Project</h5>
+                        <h5 class="card-title">Ecommerse
+                        </h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                         <a href="#" class="card-link">Check it out</a>
@@ -118,8 +144,12 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4 ">
-                <div class="card">
-                    <img src="./images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg" class="card-img-top" alt="placeholder">
+                <div class="card border-0 rounded-0">
+                    <div class="img-container">
+                        <img src="./images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg" class="card-img-top rounded-0"
+                            alt="placeholder">
+                    </div>
+
                     <div class="card-body">
                         <h5 class="card-title">Surf Project</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -128,29 +158,48 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
 
     <!-- A skills section -->
     <div class="container my-5">
+        <h4 class="skills">My Skills</h4>
+        <div class="text-success mb-5">
+            <hr>
         <div class="row">
             <div class="col-12 col-md-6">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                    <li class="list-group-item">A fourth item</li>
-                    <li class="list-group-item">And a fifth one</li>
+                    <li class="list-group-item">HTML/CSS/Git</li>
+                    <li class="list-group-item">User experience design</li>
+                    <li class="list-group-item">JavaScript & DOM Manipulation</li>
+                    <li class="list-group-item">APIs</li>
+                    <li class="list-group-item">JQuery</li>
+                    <li class="list-group-item">JSON</li>
+                    <li class="list-group-item">AJAX</li>
+                    <li class="list-group-item">Node.js</li>
+                    <li class="list-group-item">ES6</li>
+                    <li class="list-group-item">Object-oriented programming</li>
+                    <li class="list-group-item">Test-driven development</li>
+                    <li class="list-group-item">React</li>
                 </ul>
             </div>
             <div class="col-12 col-md-6">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                    <li class="list-group-item">A fourth item</li>
-                    <li class="list-group-item">And a fifth one</li>
+
+                    <li class="list-group-item">Behavior-driven development</li>
+                    <li class="list-group-item">Deployment</li>
+                    <li class="list-group-item">AJAX</li>
+                    <li class="list-group-item">Node.js</li>
+                    <li class="list-group-item">ES6</li>
+                    <li class="list-group-item">Object-oriented programming</li>
+                    <li class="list-group-item">Team collaboration</li>
+                    <li class="list-group-item">Agile development</li>
+                    <li class="list-group-item">Project demonstration and storytelling</li>
+                    <li class="list-group-item">Team collaboration</li>
+                    <li class="list-group-item">Understanding
+                        the bounds of reasonable and achievable</li>
                 </ul>
             </div>
         </div>
