@@ -45,21 +45,40 @@
   }  
 
 /*================= HEADER ========================*/
-  .bg-color {
-    background: rgb(2,0,36);
-    background: linear-gradient(100deg, var(--Fashion-4-hex) 0%, var(--Fashion-2-hex) 35%,var(--Fashion-1-hex) 100%);
-  }
+.bg-color {
+  background: rgb(2,0,36);
+  background: linear-gradient(100deg, var(--Fashion-4-hex) 0%, var(--Fashion-2-hex) 35%,var(--Fashion-1-hex) 100%);
+}
 
-  .bg-color .navbar-nav a,
-  .navbar-brand {
-    font-size: 0.8rem;
-    color: var(--white) !important;
-    font-weight: 400;
-  }
-
-
+.bg-color .navbar-nav a,
+.navbar-brand {
+  font-size: 0.8rem;
+  color: var(--white) !important;
+  font-weight: 400;
+}
 
   /*================= HERO ========================*/
+  .navbar li {
+    position: relative;
+  }
+
+.navbar li a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  display: inline-block;
+  bottom: 0px;
+  left: 0px;
+  background-color: var(--Fashion-2-hex);
+  transition: all ease-in-out;
+}
+
+.navbar li a:hover:after {
+  width: 100%;
+}
+
+
 .my-name-is {
   font-size: 0.8rem;
   color: var(--Fashion-3-hex);
@@ -67,39 +86,39 @@
   font-family: monospace;
 }
 
-  .hero-text {
-    color: var(--white);
-    font-size: 2.2rem;
-   
-  }
-  .hero-text-span {
-    color: var(--Fashion-2-hex);
-    font-size: 3rem;
-  }
+.hero-text {
+  color: var(--white);
+  font-size: 2.2rem;
+  
+}
 
-  .hero-text-bio {
-    font-size: 1rem;
-    color: #fff;
-  }
+.hero-text-span {
+  color: var(--Fashion-2-hex);
+  font-size: 3rem;
+}
 
-  .btn-outline-primary {
-    color: var(--Fashion-2-rgba);
-    border-radius: 4px;
-    border-color: var(--Fashion-3-hex);
-  }
+.hero-text-bio {
+  font-size: 1rem;
+  color: var(--Fashion-3-hex);
+}
 
-  .btn-outline-primary:hover {
-    color: var(--white);
-    border-radius: 4px;
-    border-color:transparent ;
-    background-color: var(--Fashion-2-hex);
-  }
+.btn-outline-primary {
+  color: var(--Fashion-2-rgba);
+  border-radius: 4px;
+  border-color: var(--Fashion-3-hex);
+}
 
-
+.btn-outline-primary:hover {
+  color: var(--white);
+  border-radius: 4px;
+  border-color:transparent ;
+  background-color: var(--Fashion-2-hex);
+}
 
 .contact-me-container .btn-outline-primary:hover {
   transition: cubic-bezier(.29,.76,.29,.76) 0.25s; 
 }
+
 .contact-me-container .btn-outline-primary:hover {
   box-shadow: 3px 3px 0 0 var(--Fashion-3-hex);
   transform: translate(-4px, -4px);
@@ -107,23 +126,23 @@
 
 /*================= My Work ========================*/
 
-  .work-container .card,
-  .img-container {
-    overflow: hidden;
-  }
+.work-container .card,
+.img-container {
+  overflow: hidden;
+}
 
-  .work-container .card img {
-    object-fit: cover;
-    overflow: hidden;
-    transition: all 0.3s ease;
-  }
-  .work-container .card-body{
-   background-color: var(--Fashion-2-hex);
-  }
+.work-container .card img {
+  object-fit: cover;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.work-container .card-body{
+  background-color: var(--Fashion-2-hex);
+}
 
-  .work-container .card img:hover {
-    transform: scale(1.05);
-  }
+.work-container .card img:hover {
+  transform: scale(1.05);
+}
 
 
   /*================= My Skills ========================*/
